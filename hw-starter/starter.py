@@ -1,5 +1,5 @@
-def hello():
+def run():
 	# write your code here.
 
 if __name__ == '__main__':
-	hello()
+	run()
