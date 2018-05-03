@@ -1,3 +1,7 @@
+################################
+### DO NOT EDIT FOR TUTORIAL ###
+################################
+
 from flask import Flask
 from .jakedb import JakeDB
 

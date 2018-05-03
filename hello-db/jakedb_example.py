@@ -1,3 +1,7 @@
+################################
+### DO NOT EDIT FOR TUTORIAL ###
+################################
+
 # imports
 from app.jakedb import JakeDB
 

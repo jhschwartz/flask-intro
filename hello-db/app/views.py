@@ -28,6 +28,10 @@ def new():
 
 		jake = db.get(name='Jake') # example usage - replace with your code
 
+@app.route('/favorites')
+def favs():
+	return render_template('favorites.html', data=db.all())
+
 # --- PART NUMBER TWO ---
-# Write a route to display all info in the database.
-# Hint: you need to render an html template!
+# Create the template favorites.html that will use the data provided from the 
+# database to display all people and ice cream preferences in the database.
