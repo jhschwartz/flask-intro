@@ -2,7 +2,7 @@
 # @Author: Jacob Schwartz
 # @Date:   2018-05-03 11:50:04
 # @Last Modified by:   Jacob Schwartz
-# @Last Modified time: 2018-05-03 12:33:54
+# @Last Modified time: 2018-05-03 14:08:52
 
 ################################
 ### DO NOT EDIT FOR TUTORIAL ###
@@ -41,5 +41,5 @@ class JakeDB():
 	def get_all(self):
 		return self.db.all()
 
-	def delete_all(self)
+	def delete_all(self):
 		return self.db.purge()

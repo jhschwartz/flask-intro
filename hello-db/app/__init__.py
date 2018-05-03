@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
-# @Author: Jacob Schwartz
-# @Date:   2018-05-03 11:50:35
-# @Last Modified by:   Jacob Schwartz
-# @Last Modified time: 2018-05-03 12:37:25
+from flask import Flask
+from .jakedb import JakeDB
 
-from jakedb import JakeDB
-
+app = Flask(__name__, template_folder='../templates')
 db = JakeDB('data.json')
+
+app.config['SECRET_KEY'] = '123456'
 
 from .views import *

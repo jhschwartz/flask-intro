@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Ice Cream Preference</title>
+</head>
+<body>
+
+	<form method="POST" action="/new">
+		{{ form.name.label }} {{ form.name(size=20) }}
+		<br />
+		{{ form.icecream_fav.label }} {{ form.icecream_fav(size=20) }}
+		<br />
+    	<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
