@@ -1,8 +1,8 @@
+#!env/bin/python
+
 ################################
 ### DO NOT EDIT FOR TUTORIAL ###
 ################################
-
-#!env/bin/python
 
 from app import app
 
